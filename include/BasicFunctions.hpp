@@ -1,4 +1,4 @@
-/* Este fichero define una clase que implementa las funciones básicas
+/* Este fichero define una clase que contiene las funciones básicas
 *  que se pueden usar para construir un función
 *  primitiva recursiva.
 */
@@ -15,5 +15,5 @@ class BasicFunctions {
 
     int zero(int);
     int successor(int);
-    int proyection(std::vector<int>);
+    int projection(std::vector<int>, int);
 };
